@@ -1,11 +1,11 @@
 ---
 title: "OSINT Challenges in Encrypt Edge"
 tags: ["OSINT", "CTF", "Cybersecurity"]
-style: 
-color: 
+style: border
+color: primary
 image: "/assets/images/cs50/cover.jpg"
 description: "In the world of cybersecurity, OSINT (Open Source Intelligence) plays a crucial role. OSINT involves gathering, analyzing, and utilizing intelligence from publicly available sources, such as information found on the internet."
-permalink: osint-challenges-in-encrypt-edge
+permalink: /osint-challenges-in-encrypt-edge
 ---
 
 # OSINT Challenges in Encrypt Edge
