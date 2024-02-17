@@ -1,9 +1,9 @@
 ### Site Settings ###
-title               : Aman Roy
+title               : Nishanth Anand
 description         : >-
-                      "An entrepreneurial soul stuck in a body of a geek. A personal blog about tech, code and things I experience."
+                      "I code by day, caffeinate by night, and explore the delicious world of food in between. Cybersecurity keeps my mind sharp, while tech and writing are my creative outlets. Join me on this journey as I navigate the exciting worlds of code, experiences, and everything in between!"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : aman-roy/aman-roy.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 
 ### Plugins ###
@@ -23,24 +23,24 @@ nav_exclude:
 
 ### Author Info ###
 author:
-  name              : Aman Roy
-  image             : assets/aman_roy.png
+  name              : Nishanthn Anand
+  image             : /assets/naprofile.png
 # behance           : your_username
 # dribbble          : your_username
-  email             : admin@amanroy.me
-  facebook          : amanroy007
-  github            : aman-roy
-  keybase           : amanroy
+  email             : devinfo@proton.me
+# facebook          : 
+  github            : NishanthAnand21
+# keybase           : your_username
 # gitlab            : your_username
 # instagram         : your_username
-  linkedin          : amanroy
+  linkedin          : nishanth-anand-59ab96217
 # medium            : your_username
 # soundcloud        : your_username
-# spotify           : your_username
+  spotify           : Nishanth Anand
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : Amanroy_geek
+  twitter           : NishanthAnand21
 # vimeo             : your_username
 # youtube           : your_channel_name
 
@@ -57,7 +57,7 @@ collections:
 
 
 ### Disqus ###
-disqus: amanroy
+disqus: nishanth_anand
 
 
 ### Defaults for collections ###
