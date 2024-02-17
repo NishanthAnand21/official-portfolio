@@ -22,12 +22,12 @@ Let's start by defining what open-source means. **OSINT** is short for "open sou
 
 There is a wealth of open-source information available online that can be used to gather information about a target regarding cyber security. Let's focus on the CTF (Capture The Flag) perspective. There are various **OSINT** tools available online, some of which are popular and listed below:
 
-## **OSINT Tools 
+## **OSINT Tools** 
 1. Google (free! if you know how to use it properly)
 2. [Shodan.io](http://Shodan.io) (A database that lists millions of internet-connected devices)
 3. Have I Been Pwned (Data Breaches Information)
 4. ExifTool ( Metadata)
-5. Whois (Get info on domain names, IPs, and network devices registered with ICANN.)**
+5. Whois (Get info on domain names, IPs, and network devices registered with ICANN.)
 
 **Let's now explore the world of CTFs.**
 
@@ -115,7 +115,7 @@ As aspiring digital sleuths delved into the enigmatic world of Freddie, the lege
 Firstly, read the information carefully! after reading visit the website provided.
 We can use [Shodan.io](http://Shodan.io) here to get the remote server IP address of Freddie Van Niekerk, South Africa, Johannesburg (got from the website provided)
 Simply navigate to [**shodan.io**](http://shodan.io), search with these keywords and you will get the IP Address of the server.
-Encode it using [**cyberchef](http://cyberchef.io).io** to base64 and submit the flag.
+Encode it using **[cyberchef](http://cyberchef.io).io** to base64 and submit the flag.
 
 ### 4. **F1nd_My_P0k3M0n**
 
