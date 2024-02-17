@@ -79,4 +79,5 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-exclude: [vendor]
+  - ".gitignore"
+  - "vendor/bundle/"
