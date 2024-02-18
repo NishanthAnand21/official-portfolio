@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Nishanth Anand
 description         : >-
-                      "I code by day, caffeinate by night, and explore the delicious world of food in between. Cybersecurity keeps my mind sharp, while tech and writing are my creative outlets. Join me on this journey as I navigate the exciting worlds of code, experiences, and everything in between!"
+                      "Step into my world, where cybersecurity meets adrenaline. With a cup of coffee in hand and driven by curiosity, I'm always on the hunt for the next challenge. Dive into Linux with me as we explore daemons and configurations, navigating a world of intrigue and suspense. "Exploit, Pivot, and Evade" - it's not just a mantra, it's the journey that keeps us guessing!"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
