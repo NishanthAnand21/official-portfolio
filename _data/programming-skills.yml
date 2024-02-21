@@ -8,7 +8,7 @@
 
 - name: Python
   percentage: 90
-  color: dark
+  color: success
 
 - name: C
   percentage: 80
@@ -17,10 +17,6 @@
 - name: Bash
   percentage: 80
   color: success
-
-- name: Java
-  percentage: 50
-  color: warning
 
 - name: SQL
   percentage: 80

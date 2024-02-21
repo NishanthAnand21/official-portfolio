@@ -23,7 +23,7 @@ Connect with me on social media for tech and cyber conversations. Let's explore 
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Cyber Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Tools & Tech" source=site.data.other-skills %}
 </div> 
 
 
