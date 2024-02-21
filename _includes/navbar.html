@@ -1,20 +1,35 @@
 <nav class="navbar navbar-expand-lg navbar-themed">
-  <a class="navbar-brand" href="{{ site.baseurl }}"><h5><b>{{ site.title }}</b></h5></a>
+
+  <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
+
       {%- assign sorted_pages = site.html_pages | sort: 'nav_order' -%}
-      {% for page in sorted_pages %}
-        {%- if page.url == '/' -%}
+
+      {% for html_page in sorted_pages %}  
+
+        {%- if page.url contains html_page.url -%}
           {%- assign active_status = "active" -%}
         {%- else -%}
           {%- assign active_status = "" -%}
         {%- endif -%}
-        <a class="nav-item nav-link {{ active_status }}" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+
+        {%- if html_page.external_url -%}
+          {%- assign url = html_page.external_url -%}
+        {%- else -%}
+          {%- assign url = html_page.url | relative_url -%}
+        {%- endif -%}
+
+        <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+
       {% endfor %}
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
+
 </nav>
