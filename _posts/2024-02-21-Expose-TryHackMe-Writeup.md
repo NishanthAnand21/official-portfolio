@@ -4,7 +4,7 @@ tags: ["CTF", "TryHackMe", "Linux", "Privilege Escalation", "Writeup"]
 style: border
 color: secondary
 image: "/assets/images/assets/images/proofs-of-expose/expose-cover.png"
-description: " A easy level linux machine on THM"
+description: " An easy level linux machine on THM"
 
 permalink: /Expose-TryHackMe-Writeup
 ---
