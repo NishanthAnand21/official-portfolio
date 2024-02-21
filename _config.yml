@@ -85,23 +85,16 @@ nav_order:
 layout: page
 title: "About"
 nav_order: 1
----
 
----
 layout: page
 title: "Blog"
 nav_order: 2
----
 
----
 layout: page
 title: "Projects"
 nav_order: 3
----
 
----
 layout: page
 title: "Contact"
 nav_order: 4
 ---
-  
