@@ -1,7 +1,7 @@
 ---
 title: "Expose TryHackMe Writeup"
-tags: ["CTF", "TryHackMe", "OSINT", "Cybersecurity", "Linux", "Privilege Escalation", "SUID", "LFI", "FTP", "SSH", "SQL Injection", "Burp Suite", "Nmap", "Dirsearch", "Sqlmap", "Reverse Shell", "Nano", "openssl", "Pentestmonkey", "revshells.com", "PHP", "Javascript", "Bypass", "Enumeration", "Exploitation", "Root", "Flag", "Writeup"]
-style: fill
+tags: ["CTF", "TryHackMe", "Linux", "Privilege Escalation", "Writeup"]
+style: border
 color: secondary
 image: "/assets/images/assets/images/proofs-of-expose/expose-cover.png"
 description: " A easy level linux machine on THM"

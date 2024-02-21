@@ -24,7 +24,7 @@ nav_exclude:
 ### Author Info ###
 author:
   name              : Nishanthn Anand
-  image             : /assets/naprofile.png
+  image             : /assets/na_profile.png
 # behance           : your_username
 # dribbble          : your_username
   email             : devinfo@proton.me
@@ -36,7 +36,6 @@ author:
   linkedin          : nishanth-anand-59ab96217
 # medium            : your_username
 # soundcloud        : your_username
-  spotify           : Nishanth Anand
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
@@ -47,8 +46,6 @@ author:
 
 ### Posts ###
 permalink: pretty
-# Remove the duplicate key "permalink"
-# permalink: pretty
 
 ### Collections ###
 collections:
@@ -83,40 +80,28 @@ exclude:
   - ".gitignore"
   - "vendor/bundle/"
 
-# nav_order: 
-# ---
-# layout: page
-# title: "About"
-# nav_order: 1
-# ---
+nav_order: 
+---
+layout: page
+title: "About"
+nav_order: 1
+---
 
-# ---
+---
+layout: page
+title: "Blog"
+nav_order: 2
+---
 
-# layout: page
-# title: "Blog"
-# nav_order: 2
-# ---
+---
+layout: page
+title: "Projects"
+nav_order: 3
+---
 
-# ---
-
-# layout: page
-# title: "Projects"
-# nav_order: 3
-# ---
-
-# ---
-
-# layout: page
-# title: "Contact"
-# nav_order: 4
-# ---
-
-navigation:
-  - title: About
-    url: /about
-  - title: Blog
-    url: /blog.html
-  - title: Projects
-    url: /projects.html
-  - title: Contact
-    url: /contact
+---
+layout: page
+title: "Contact"
+nav_order: 4
+---
+  
