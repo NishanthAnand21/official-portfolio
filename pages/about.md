@@ -9,9 +9,6 @@ weight: 2
 
 <!-- <img src="/assets/naprofile.png" width="300px" class="wow animated jackInTheBox" data-wow-delay=".2s"> -->
 
-<center>{% include elements/button.html link="https://drive.google.com/file/d/1l0wOsJ0Ry-scj4CRx6WQCMS_LDT6_ZgH/view?usp=sharing" text="Download Resume" size="sm" %}
-</center><br>
-
 Hi, I am **{{ site.author.name }}** :wave:,<br>
 Thanks for stumbling upon my little space on the web. I'm a cybersecurity enthusiast who's always eager to explore every aspect of cybersecurity. Whether it's exploring new technologies, discovering innovative solutions, or learning about the latest trends and developments, I'm always eager to dive in and expand my knowledge. With a caffeine boost, I love to play Capture the Flag (CTF) and dive into the world of Red Teaming and DevSecOps. 
 
@@ -19,7 +16,8 @@ I'm currently studying for a Diploma in CSE at Lovely Professional University in
 
 Connect with me on social media for tech and cyber conversations. Let's explore the fascinating world of tech together!
 
-
+<center>{% include elements/button.html link="https://drive.google.com/file/d/1l0wOsJ0Ry-scj4CRx6WQCMS_LDT6_ZgH/view?usp=sharing" text="Download Resume" size="sm" %}
+</center><br>
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
