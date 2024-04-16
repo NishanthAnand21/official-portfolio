@@ -7,7 +7,7 @@ weight: 2
 
 # **About Me**
 
-<img src="/assets/naprofile.png" width="300px" class="wow animated jackInTheBox" data-wow-delay=".2s">
+<!-- <img src="/assets/naprofile.png" width="300px" class="wow animated jackInTheBox" data-wow-delay=".2s"> -->
 
 <center>{% include elements/button.html link="https://drive.google.com/file/d/1l0wOsJ0Ry-scj4CRx6WQCMS_LDT6_ZgH/view?usp=sharing" text="Download Resume" size="sm" %}
 </center><br>
