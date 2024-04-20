@@ -106,7 +106,7 @@ exclude:
 # ---
 
 
-  navigation:
+navigation:
   - title: HTB Profile
     url: https://app.hackthebox.com/profile/1435895
   - title: THM Profile
