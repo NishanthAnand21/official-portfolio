@@ -104,3 +104,10 @@ exclude:
 # title: "Contact"
 # nav_order: 4
 # ---
+
+
+  navigation:
+  - title: HTB Profile
+    url: https://app.hackthebox.com/profile/1435895
+  - title: THM Profile
+    url: https://tryhackme.com/p/D3v0X7
